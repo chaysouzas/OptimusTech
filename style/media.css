@@ -1,0 +1,217 @@
+@media only screen and (max-width: 1028px) {
+
+/*BARRA DE NAVEGAÇÃO*/
+    div.container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        padding: 2rem 0;
+        flex-direction: column;
+        margin: 16px;
+    
+    }
+
+    div ul.content{
+        display: flex;
+        margin: 1rem;
+        padding: 16px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: flex-start;
+
+}
+
+     li > a{
+        font-family: var(--fonte_500);
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none solid;
+        margin: 0;
+        display: flex;
+        color: var(--color_font);
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+}
+
+div.navigations_actions{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin: 0px 30px;
+        gap:1px;
+    
+}
+
+/*INICIO CONTEÚDO PRINCIPAL*/   
+
+div.cabeçalho{ 
+
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title{
+    font-family: var(--fonte_500);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+
+.text-suport{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    max-width: 17rem;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+
+
+}
+/*METRICAS*/
+
+div.conteiner__metricas{
+    display: grid;
+    grid-template-columns: 1fr;
+
+  
+}
+
+.metrica-item h1, h2,h3{
+    text-align: center;
+}
+
+/*VAGAS*/
+
+div.vaga{
+    background-color: transparent;
+    display: grid;
+    justify-content: center;
+    gap: 24px;
+    padding: 4px 8px;
+    margin: 20px;
+    border: 1px solid #00000036;
+    border-radius: 16px;
+    max-width: 340px;
+    height: 100px;
+}
+
+div.container-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Ajusta a largura conforme necessário*/
+    padding-bottom: 100px;
+}
+
+
+div.container-formulario h1{
+    font-family: var(--fonte_500) ;
+    font-weight: 500;
+    font-size: 0.90rem;
+    text-align: center;
+
+
+}
+
+/*DEPOIMENTOS*/
+div.bloco-depoimento{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #8e242414;
+    border-radius: 16px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 90%;
+    height: 280px;
+    margin: auto;
+    padding: 30px 0 30px 0px;
+}
+
+
+div.bloco-depoimento__texto{
+    text-align: center;
+    margin: 20px;
+}
+
+div.bloco-depoimento__texto h2{
+    font-family: var(--fonte_500);
+    font-size: 0.55rem;
+    font-weight: 700;
+    color: var(--cor-principal);
+    text-align: center;
+
+
+}
+
+div.bloco-depoimento__texto h1{
+    font-family: var(--fonte_500);
+    font-size: 0.58rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+}
+
+div.bloco-depoimento__imagem p {
+    font-family: var(--fonte_500);
+    color: #66708546;
+    font-size: 0.70rem;
+    font-weight: 300;
+    text-align: center;
+
+}
+/*RODAPÉ*/
+
+div.text-footer h1{
+    font-family: var(--fonte_500);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -40px;
+}
+
+div.text-footer h2{
+    font-family: var(--fonte_500);
+    font-weight: 400;
+    font-size: 0.85rem;
+    text-align: center;
+    color: var(--color_font);
+    margin-top: 16px;
+}
+div.input-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+}
+
+
+
+

@@ -1,6 +1,7 @@
 # OptimusTech - Portfolio Project
 
 Projeto criado durante a proposta #7daysOfCode da Giovanna Moeller.
+Além do que foi proposto, aproveitei a oportunidade para iniciair meus estudos usando media queries com foco em responsividade.
 
 ## Estrutura do Projeto
 

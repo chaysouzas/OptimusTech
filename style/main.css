@@ -48,7 +48,7 @@ div.cabeçalho{
 div.conteiner__metricas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 1.875rem;
+    margin: 3.875rem;
   
 }
 
@@ -85,23 +85,24 @@ div.metrica-item{
 
 div.container__vagas{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px ;
-    margin: 3.125rem;
+    padding: 1em;
+    margin-bottom: 8em;
     flex-direction: column;
-    flex-wrap: wrap;}
+    align-items: center;
+}
 
 .button__vagas{
-    margin: 1rem;
+    margin: 2rem;
     text-align: center;
     font-family: var(--fonte_500);
     font-weight: 500;
-    font-size:0.90rem;
+    font-size: 1.5em;
     color: var(--cor-principal);
     border: none;
     border-radius: 16px;
     background-color: #8e242413;
+    width: 8em;
+    cursor: pointer;
 }
 
 div.vagas__texto h1{

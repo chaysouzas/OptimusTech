@@ -1,4 +1,5 @@
 # OptimusTech - Portfolio Project
+[Clique para visualizar](https://chaysouzas.github.io/OptimusTech/#)
 
 Projeto criado durante a proposta #7daysOfCode da Giovanna Moeller.
 Além do que foi proposto, aproveitei a oportunidade para iniciair meus estudos usando media queries com foco em responsividade.
